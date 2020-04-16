@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      background-color: cadetblue;
+    }
+    #turtle {
+      position: absolute;
+      top: 200px;
+      left: 500px;
+    }
+    #hat {
+      position: absolute;
+      left: 500px;
+      top: 800px;
+    }
+  </style>
+</head>
+
+<body>
+  <img id="turtle" src="turtle.png">
+  <img id="hat" src="hat.png">
+</body>
+<script>
+  var turtle = document.getElementById("turtle");
+  turtle.addEventListener("click",moveHat);
+  function moveHat() {
+    var turtle = document.getElementById("turtle");
+    console.log("test");
+    hat.style.top = "45px";
+    hat.style.left = "655px";
+  }
+</script>
+</html>
